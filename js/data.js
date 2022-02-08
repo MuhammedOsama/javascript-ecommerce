@@ -1,5 +1,5 @@
 // data
-let products = [
+let productsDB = [
     {
         id: 1,
         title: 'Laptop',
@@ -37,3 +37,5 @@ let products = [
         imageUrl: './images/6.jpg'
     },
 ];
+
+localStorage.setItem('products', JSON.stringify(productsDB));
